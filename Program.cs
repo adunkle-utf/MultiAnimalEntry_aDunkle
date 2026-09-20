@@ -23,7 +23,7 @@ while (running)
                     """);
     // Request program function choice
     Console.Write("\nEnter choice: ");
-    int choiceInput = Convert.ToInt32(Console.ReadLine());
+    int.TryParse(Console.ReadLine(), out int choiceInput);
 
     // Handle logic for 3 valid options + invalid option
     switch (choiceInput)
