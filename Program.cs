@@ -74,3 +74,6 @@ while (running)
             break;
     }
 }
+
+// Thank user for using the program
+Console.WriteLine("\nThank you for using Noah's Ark Entry System!");
