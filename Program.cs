@@ -30,16 +30,19 @@ while (running)
     {
         // 1. Add Animal
         case 1:
-            // These lines gather animal input data
+            // Request animal name
             Console.Write("\nEnter an animal name: ");
             string nameInput = Console.ReadLine();
 
+            // Request animal count
             Console.Write("Enter Count: ");
             int countInput = Convert.ToInt32(Console.ReadLine());
 
+            // Request food amount per animal
             Console.Write("Enter food per animal per day: ");
             double foodInput = Convert.ToDouble(Console.ReadLine());
 
+            // Indicate successful input of animal
             Console.WriteLine($"\n{nameInput} added successfully!");
 
             // Update animal summary data
