@@ -2,7 +2,7 @@
 
 This program allows you to compile the amounts of different animals, their daily food requirements, and view a summary of this data. It will provide a list of program options on start-up.
 
-Program options are
+Program options are:
   1. Add animal
   2. View summary
   3. Exit
